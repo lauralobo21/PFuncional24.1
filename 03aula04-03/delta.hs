@@ -13,3 +13,4 @@
 coutSquare n = sum [1 | x <- [1..n], y <- [1..x], z <- [1..y]]
     where 
         isSqr a b c = a^2 == b^2 + c^2
+        
