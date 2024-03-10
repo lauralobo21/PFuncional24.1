@@ -9,6 +9,6 @@ hipot :: Float -> Float -> Float
 hipot a b = sqrt(a*a + b*b)
 
 diferenca :: Float -> Float -> Float
-diferenca r1 r2 = abs((area1) - (area2))
+diferenca r1 r2 = abs((area r1) - (area r2))
 
 

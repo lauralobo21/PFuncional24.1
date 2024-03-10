@@ -11,3 +11,4 @@ maiorn :: Int -> Int -> Int
 maiorn a b 
     | a > b = a 
     | a < b = b 
+    | otherwise = 0
