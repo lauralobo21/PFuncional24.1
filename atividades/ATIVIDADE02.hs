@@ -28,5 +28,5 @@ tot'tri  :: Int -> Int
 tot'tri p = length [(a, b, c) | a <- [1..p], b <- [1..a], c <- [1..b], p == a + b + c, a^2 == b^2 + c^2] 
 
 
-
-
+-- CORREÇÃO -----------------------------
+--tot'tri 
