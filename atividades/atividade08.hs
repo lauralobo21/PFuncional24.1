@@ -1,12 +1,11 @@
--- Atividade 08
+-- Atividade 08    
 -- Nome: Laura Soléria Lobo Vitorino Maciel
 -- Matrícula: 555523
 
 -- Árvore binária de busca (BST)
-data BST a
-  = Null
-  | Node a (BST a) (BST a)
-  deriving (Show, Eq)
+data BST a = Null
+           | Node a (BST a) (BST a)
+           deriving (Show, Eq)
 
 -- Questão 1: Retorna a versão parentizada de uma BST dada
 parentize :: BST Int -> String
